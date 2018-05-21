@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="choose_city">Выберите город</string>
+    <string name="last_update">Последнее обновление</string>
+    <string name="ok" translatable="false">OK</string>
+
+    <string name="weather_sunny" translatable="false">&#xf00d;</string>
+    <string name="weather_clear_night" translatable="false">&#xf02e;</string>
+    <string name="weather_foggy" translatable="false">&#xf014;</string>
+    <string name="weather_cloudy" translatable="false">&#xf013;</string>
+    <string name="weather_rainy" translatable="false">&#xf019;</string>
+    <string name="weather_snowy" translatable="false">&#xf01b;</string>
+    <string name="weather_thunder" translatable="false">&#xf01e;</string>
+    <string name="weather_drizzle" translatable="false">&#xf01c;</string>
+    <string name="place_not_found">Нет данных по этому городу</string>
+    <string name="humidity">Влажность</string>
+    <string name="pressure">Давление</string>
+
+    <string name="open_weather_maps_app_id" translatable="false">b849169e8518a852747d3feae7403e88</string>
+</resources>

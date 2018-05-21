@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context="weather.MainActivity"
+    android:weightSum="1">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/transparent"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/data"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_data"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="@dimen/for_data_padding"/>
+
+    <TextView
+        android:text="\uf019"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sky"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/text_size_sky"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/temperature"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_temperature" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gradus"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_gradus"
+            android:layout_gravity="left"
+            android:paddingTop="@dimen/for_gradus_padding" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/city"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/text_size_city"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="@dimen/for_city_padding"/>
+
+
+
+
+</LinearLayout>
